@@ -1,10 +1,10 @@
 import "./contact.css"
 const Contact = () => {
     return ( 
-        <div>
+        <section id="contact">
             contact
-        </div>
-     );
+        </section>
+    );
 }
- 
+
 export default Contact;

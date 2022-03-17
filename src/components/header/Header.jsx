@@ -1,5 +1,5 @@
 import CTA from "./CTA";
-import ME from "../../assets/me.jpg"
+import ME from "../../assets/me.png"
 import "./header.css"
 import Socials from "./Socials";
 const Header = () => {

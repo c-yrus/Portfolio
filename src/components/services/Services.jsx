@@ -1,10 +1,10 @@
 import "./services.css"
 const Services = () => {
     return ( 
-        <div>
+        <section id="services">
             services
-        </div>
-     );
+        </section>
+    );
 }
- 
+
 export default Services;
