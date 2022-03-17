@@ -58,20 +58,18 @@ header {
 /* =============== MEDIA QUERIES (Medium Devices) ============= */
 
 @media screen and (max-width: 1024px) {
-  .container {
-    width: var(--container-width-md);
-  }
-  section {
-    margin-top: 6rem;
+  header {
+    height: 68vh;
   }
 }
 
 /* =============== MEDIA QUERIES (Small Devices) ============= */
 @media screen and (max-width: 600px) {
-  .container {
-    width: var(--container-width-sm);
+  header {
+    height: 100vh;
   }
-  section > h2 {
-    margin-top: 2rem;
+  .header__socials,
+  .scroll__down {
+    display: none;
   }
 }
